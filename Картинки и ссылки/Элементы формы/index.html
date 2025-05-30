@@ -9,14 +9,28 @@
    <form action="/submit" method="post">
        <label for="name">Name:</label>
        <input type="text" id="name" name="name" required>
-   </form>
-   <form action="/submit" method="post">
        <label for="email">email:</label>
-       <input type="text" id="email" name="email" required>
-   </form>
-   <form action="/submit" method="post">
+       <input type="email" id="email" name="email" required>
+       <label for="password">password:</label>
+       <input type="password" id="password" name="password" required>
        <label for="textarea">textarea:</label>
-       <input type="text" id="textarea" name="textarea" required>
-   </form>
+       <textarea id="textarea" name="textarea" required></textarea>
+          <label for="country">Country:</label>
+          <h3>здея создал то куда можна написат информачию</h3>
+       <fieldset>
+        <legend>можно нажат</legend>
+               <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="us">Россия</option>
+                <option value="uk">США</option>
+                <option value="au">Канада</option>
+                </select>
+               <button type="submit">Submit</button>
+       <label for="message"></label>
+       <button type="reset">reset</button>
+       <label for="message"></label>
+       </fieldset>
+    </form>
+    <h3>здес все что можна нажат я их раздирил с помушю fieldset и назвал с помушю legend</h3>
 </body>
 </html>
