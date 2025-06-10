@@ -1,0 +1,28 @@
+h3 {
+    color: coral;
+    font-size: 50px;
+}
+h2 {
+    text-align:center;
+    font: weight 30px;
+}
+h4 {
+   background-image: url('123.jpg');
+   background-color:chartreuse;
+   height: 200px;
+   width: 200px;
+}
+h4 {
+    background-image:-moz-element()
+}
+div{
+    padding: 50px;
+    border: 10px solid red;
+    margin:50px;
+}
+h5 {
+    height: 100px;
+    width: 100px;
+    overflow:scroll;
+    overflow:hidden;
+}
