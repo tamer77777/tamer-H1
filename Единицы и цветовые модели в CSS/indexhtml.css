@@ -1,8 +1,22 @@
 h1 {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    color: rgb(255, 87, 51);
 }
 p {
     width: 10em;
     height: 50em;
+    color: rgba(255, 87, 51, 0.5);
+}
+div{
+    padding: 50px;
+    border: 10px solid red;
+    margin:50px;
+}
+h3 {
+    width: 10rem;
+    height: 50rem;
+}
+h4 {
+    color:#0fc0ec
+    background-color:azure;
 }
