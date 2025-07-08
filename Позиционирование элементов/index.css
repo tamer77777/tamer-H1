@@ -1,0 +1,45 @@
+
+ .static-element {
+    position: static;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.relative-element {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: lightcoral;
+}
+.relative-box {
+    position: relative;
+    bottom: -100px;
+    right: 10px;
+    background-color:blue
+}
+.absolute-element {
+position: absolute;
+background-color: lightblue;
+}
+.container {
+  position: relative;
+  width: 500px;
+  height: 25px;
+  border: 2px solid #99c;
+}
+.fixed-element {
+position: fixed;
+bottom: 1px;
+right: 1px;
+}
+.sticky-element {
+    position: sticky;
+    top: 1px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.containert {
+height: 2000px;
+}

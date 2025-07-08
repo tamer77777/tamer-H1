@@ -4,8 +4,11 @@ margin: 10px 0;
 padding: 10px;
 }
 p{
-display: inline;
+display: block;
 }
 img{
+display: block
+}
+a{
 display: block
 }
