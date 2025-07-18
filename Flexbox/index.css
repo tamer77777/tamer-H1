@@ -1,0 +1,45 @@
+.container {
+display: flex;
+flex-direction: column
+align-items: center;
+align-items
+height: 200px;
+background-color: lightgrey;
+}
+
+.item {
+padding: 10px;
+border: 1px;
+background-color: lightblue;
+}
+
+.containers {
+flex-flow
+align-items: center;
+align-content
+justify-content
+height: 200px;
+background-color: lightgrey;
+}
+
+.items {
+padding: 10px;
+border: 1px;
+background-color: lightblue;
+}
+
+.containers-2 {
+flex-grow
+flex-shrink
+flex-basis
+align-items: center;
+align-items
+height: 200px;
+background-color: lightgrey;
+}
+
+.items-2 {
+padding: 10px;
+border: 1px;
+background-color: red;
+}
