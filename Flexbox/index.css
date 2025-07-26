@@ -1,21 +1,36 @@
 .container {
 display: flex;
-flex-direction: column
-align-items: center;
-align-items
+display: inline;
+display: block;
 height: 200px;
 background-color: lightgrey;
 }
 
 .item {
-padding: 10px;
-border: 1px;
-background-color: lightblue;
+align-items:center
+padding 10px
+border 1px;
+background-color:lightblue
 }
+
+.container3{
+      display: flex;
+      border: 2px solid #000;
+      padding: 10px;
+      gap: 10px;
+}
+
+.inline{
+      background-color: lightblue;
+      padding: 20px;
+      text-align: center;
+      flex: 0 0 100px;
+}
+}
+
 
 .containers {
 flex-flow
-align-items: center;
 align-content
 justify-content
 height: 200px;
@@ -23,6 +38,7 @@ background-color: lightgrey;
 }
 
 .items {
+align-items: center;
 padding: 10px;
 border: 1px;
 background-color: lightblue;
@@ -35,11 +51,53 @@ flex-basis
 align-items: center;
 align-items
 height: 200px;
-background-color: lightgrey;
+background-color:: lightgrey;
 }
 
 .items-2 {
 padding: 10px;
 border: 1px;
 background-color: red;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+
+.bloc1 {
+    flex: 0 0 50%; 
+}
+.bloc2 {
+      flex: 1 1 auto;
+}
+.bloc3 {
+      flex: 0 0 100px;
+}
+.links {
+      justify-content
+}
+
+.links1 {
+    justify-content
+    align-items
+}
+
+.inline{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #333;
+      height: 60px;
+}
+.flex2{
+  display: flex2
+}
+.line{
+  flex: 1 1 200px;
+  flex-wrap: wrap
+  space-around
 }
