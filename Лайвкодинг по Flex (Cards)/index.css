@@ -1,0 +1,24 @@
+.card{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 32px;
+}
+
+.card-block{
+    
+}
+
+.badge{
+    background-color: #191919;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 27px;
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 6px;
+    margin-bottom: 48.40px;
+}
