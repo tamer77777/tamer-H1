@@ -15,29 +15,106 @@
 
 .contener{
       display: flex;
-      flex-flow:column
+      flex-direction: column;
+      flex-wrap:wrap;
+      flex-flow:wrap;
 }
 
 .contener2{
-      justify-content:column;
-      align-items:row;
-      align-content:column;
+      justify-content:center;
+      align-items:column;
+      align-content:space-evenly;
 }
 
-.flexcontener{
-      flex: 5 5 15;
+.bloc1{
+      flex-basis:10px;
+      flex-grow:1;
+      flex-shrink:1;
+      flex: 1 1 10px;
 }
 
-.flexbox{
+.bloc2{
+      flex-basis:20px;
+      flex-grow:2;
+      flex-shrink:2;
+      flex: 2 2 20px;
+}
+
+.bloc3{
+      flex-basis:30px;
+      flex-grow:3;
+      flex-shrink:3;
+      flex: 3 3 30px;
+}
+
+.flexbox1{
       flex: 0 0 50%;
+}
 
+.flex2{
       flex: 1 1 auto;
+}
 
+.flex3{
       flex: 0 0 100px;
-
 }
 
 .flexbox2{
       justify-content:center;
       align-items:space-between;
+}
+.flexbox{
+      flex: 1 1 200px;
+      flex-wrap: wrap    
+}
+
+.contener3{
+      width: 1000px;
+      display: flex;
+      flex-direction: column;
+      padding: 50px 677px;
+      border: 2px solid black;
+}
+
+.flexcontener3{
+      width: 1000px;
+      display: flex;
+      flex-direction: row;
+}
+
+.flexcontener3 div{
+      flex-basis: 128px;
+}
+
+.flexcontener4{
+      padding: 10px;
+      border: 2px solid black;
+      background-color: blue;
+}
+
+.flexcontener4-grow{
+      padding: 10px;
+      border: 2px solid black;
+      background-color: blue;
+      flex-grow:2;
+}
+
+.flexcontener5{
+      padding: 10px;
+      border: 2px solid black;
+      background-color: blue;
+}
+
+.flexcontener5-shrink{
+      flex-shrink:0.1;
+      padding: 10px;
+      border: 2px solid black;
+      background-color: blue;
+}
+
+.flexcontener6{
+      padding: 10px;
+      border: 2px solid black;
+      background-color: blue;
+      display: inline;
 }
